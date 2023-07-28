@@ -40,7 +40,7 @@ const renderPokemon = async (pokemon) => {                                      
         
         const types = data.types.map((typeSlot) => typeSlot.type.name);
         pokemonType.innerHTML = types.join(' / '); 
-        
+
         pokemonHeight.innerHTML = data.height/10 + ' m';
         pokemonWeight.innerHTML = data.weight/10 + ' Kg';
 
