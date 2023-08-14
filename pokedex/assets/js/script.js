@@ -47,6 +47,7 @@ const renderPokemon = async (pokemon) => {                                      
         const abilities = data.abilities.map((ability) => ability.ability.name )
         pokemonAbilitie.innerHTML = abilities.join('\n');
           
+          
 
     } else {
         pokemonAbilitie.innerHTML = 'Null ';
