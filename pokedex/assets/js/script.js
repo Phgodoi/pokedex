@@ -44,7 +44,7 @@ const renderPokemon = async (pokemon) => {                                      
         pokemonHeight.innerHTML = data.height/10 + ' m';
         pokemonWeight.innerHTML = data.weight/10 + ' Kg';
 
-        const abilities = data.abilities.map((ability) => ability.ability.name)
+        const abilities = data.abilities.map((ability) => ability.ability.name )
         pokemonAbilitie.innerHTML = abilities.join('\n');
           
 
